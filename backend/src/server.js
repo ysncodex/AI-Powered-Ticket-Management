@@ -126,7 +126,7 @@ app.get('/', (req, res) => {
 
 // ✅ Listen on the httpServer (which includes both Express and Socket.IO)
 const PORT = process.env.PORT || 5000;
-httpServer.listen(PORT, '127.0.0.1', () => {
+httpServer.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
 });
 
