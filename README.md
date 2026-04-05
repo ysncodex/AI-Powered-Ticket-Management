@@ -19,23 +19,13 @@
 
 ---
 
-## 🔑 Demo Accounts ← ADD THIS (NEW LOGIN PANEL SECTION)
+## 🔑 Demo Login Panel
 
-╔══════════════════════════════════════╗
-║ 🚀 SYSTEM LOGIN ACCESS ║
-╠══════════════════════════════════════╣
-║ 👨‍💼 Admin ║
-║ Email: admin@gmail.com ║
-║ Password: 11111111 ║
-╠══════════════════════════════════════╣
-║ 🧑‍🔧 Agent ║
-║ Email: agent@gmail.com ║
-║ Password: 11111111 ║
-╠══════════════════════════════════════╣
-║ 👤 Customer ║
-║ Email: customer@gmail.com ║
-║ Password: 11111111 ║
-╚══════════════════════════════════════╝
+| Role     | Email              | Password |
+| -------- | ------------------ | -------- |
+| Admin    | admin@gmail.com    | 11111111 |
+| Agent    | agent@gmail.com    | 11111111 |
+| Customer | customer@gmail.com | 11111111 |
 
 ---
 
