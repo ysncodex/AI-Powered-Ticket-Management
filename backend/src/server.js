@@ -29,7 +29,7 @@ const httpServer = createServer(app);
 // ✅ Setup Socket.IO on that exact server
 const io = new Server(httpServer, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://ai-powered-ticket.netlify.app/',
     credentials: true,
   },
 });
