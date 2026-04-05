@@ -3,7 +3,7 @@ import User from '../models/User.js';
 
 // Protect routes - verifies the token
 export const protect = async (req, res, next) => {
-  let token = req.cookies.jwt;
+  let token = req.cookies.token;
 
   if (token) {
     try {
