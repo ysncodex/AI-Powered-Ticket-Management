@@ -19,16 +19,6 @@
 
 ---
 
-## 🔑 Demo Login Panel
-
-| Role     | Email              | Password |
-| -------- | ------------------ | -------- |
-| Admin    | admin@gmail.com    | 11111111 |
-| Agent    | agent@gmail.com    | 11111111 |
-| Customer | customer@gmail.com | 11111111 |
-
----
-
 ## 🎯 Overview
 
 This application helps organizations efficiently manage customer support tickets through:
