@@ -19,6 +19,26 @@
 
 ---
 
+## 🔑 Demo Accounts ← ADD THIS (NEW LOGIN PANEL SECTION)
+
+╔══════════════════════════════════════╗
+║ 🚀 SYSTEM LOGIN ACCESS ║
+╠══════════════════════════════════════╣
+║ 👨‍💼 Admin ║
+║ Email: admin@gmail.com ║
+║ Password: 11111111 ║
+╠══════════════════════════════════════╣
+║ 🧑‍🔧 Agent ║
+║ Email: agent@gmail.com ║
+║ Password: 11111111 ║
+╠══════════════════════════════════════╣
+║ 👤 Customer ║
+║ Email: customer@gmail.com ║
+║ Password: 11111111 ║
+╚══════════════════════════════════════╝
+
+---
+
 ## 🎯 Overview
 
 This application helps organizations efficiently manage customer support tickets through:
