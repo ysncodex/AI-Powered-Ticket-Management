@@ -28,10 +28,10 @@ const httpServer = createServer(app);
 
 // ✅ Setup Socket.IO on that exact server
 const io = new Server(httpServer, {
-  cors: {
-    origin: 'https://ai-powered-ticket.netlify.app',
-    credentials: true,
-  },
+cors: {
+  origin: ["https://ai-powered-ticket.netlify.app"],
+  credentials: true,
+},
 });
 
 // 🔐 WebSocket Authentication Middleware
@@ -93,12 +93,12 @@ io.on('connection', (socket) => {
 
 // --- Middlewares ---
 app.use(helmet());
-app.use(
-  cors({
-    origin: 'https://ai-powered-ticket.netlify.app',
-    credentials: true,
-  })
-);
+app.use(cors({
+  origin: [
+    "https://ai-powered-ticket.netlify.app"
+  ],
+  credentials: true
+}));
 app.use(express.json());
 app.use(cookieParser());
 
