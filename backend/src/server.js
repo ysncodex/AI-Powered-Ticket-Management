@@ -29,7 +29,7 @@ const httpServer = createServer(app);
 // ✅ Setup Socket.IO on that exact server
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://ai-powered-ticket.netlify.app/',
+    origin: 'https://ai-powered-ticket.netlify.app',
     credentials: true,
   },
 });
@@ -95,7 +95,7 @@ io.on('connection', (socket) => {
 app.use(helmet());
 app.use(
   cors({
-    origin: 'https://ai-powered-ticket.netlify.app/',
+    origin: 'https://ai-powered-ticket.netlify.app',
     credentials: true,
   })
 );
